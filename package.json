@@ -1,0 +1,29 @@
+{
+  "name": "@coler/release-notes-generator",
+  "version": "1.0.0",
+  "description": "Generate professional release notes using OpenAI",
+  "main": "lib/generator.js",
+  "bin": {
+    "release-notes": "./bin/release-notes.js"
+  },
+  "scripts": {
+    "test": "node bin/release-notes.js"
+  },
+  "keywords": [
+    "release-notes",
+    "changelog",
+    "openai",
+    "github",
+    "automation"
+  ],
+  "author": "Coler",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.7"
+  }
+}
