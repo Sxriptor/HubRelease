@@ -35,22 +35,6 @@ You'll need an OpenAI API key. Get one at: https://platform.openai.com/api-keys
 
 **Note:** Your API key is saved locally in your user home directory (`.release-notes-config.json`) so you don't have to enter it every time. To reset it, simply delete this file.
 
-## Windows Shortcut (.bat)
-
-To run this tool easily with a double-click on Windows, create a `.bat` file:
-
-1.  Create a new text file and name it `ReleaseNotes.bat`.
-2.  Right-click and select **Edit**.
-3.  Paste the following code:
-
-```bat
-@echo off
-release-notes
-pause
-```
-
-4.  Save the file.
-5.  Double-click it anytime to generate release notes!
 
 ## Example
 
