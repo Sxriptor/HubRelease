@@ -1,11 +1,18 @@
 {
-  "name": "@coler/release-notes-generator",
+  "name": "@scriptorxtor/release-notes-generator",
   "version": "1.0.0",
   "description": "Generate professional release notes using OpenAI",
   "main": "lib/generator.js",
+  "type": "commonjs",
   "bin": {
-    "release-notes": "./bin/release-notes.js"
+    "release-notes": "bin/release-notes.js"
   },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "test": "node bin/release-notes.js"
   },
@@ -16,8 +23,12 @@
     "github",
     "automation"
   ],
-  "author": "Coler",
+  "author": "Scriptorxtor <scriptorxtor@protonmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sxriptor/HubRelease.git"
+  },
   "engines": {
     "node": ">=14.0.0"
   },
