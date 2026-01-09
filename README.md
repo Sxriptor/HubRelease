@@ -21,13 +21,30 @@ You'll be asked to provide:
 - Version number
 - Release notes style (Normal or Expanded)
 - Features/fixes description
-- OpenAI API key
+- OpenAI API key **(Only asked on first run, then saved securely)**
 
-## API Key
+## Configuration & API Key
 
 You'll need an OpenAI API key. Get one at: https://platform.openai.com/api-keys
 
-**Note:** Your API key is never stored and is only used for the current session.
+**Note:** Your API key is saved locally in your user home directory (`.release-notes-config.json`) so you don't have to enter it every time. To reset it, simply delete this file.
+
+## Windows Shortcut (.bat)
+
+To run this tool easily with a double-click on Windows, create a `.bat` file:
+
+1.  Create a new text file and name it `ReleaseNotes.bat`.
+2.  Right-click and select **Edit**.
+3.  Paste the following code:
+
+```bat
+@echo off
+release-notes
+pause
+```
+
+4.  Save the file.
+5.  Double-click it anytime to generate release notes!
 
 ## Example
 
@@ -36,7 +53,6 @@ Enter product name: Whispra
 Enter version: 1.9.2
 Select release notes style: Expanded
 Enter features/fixes: windows 11 fixes, improved performance
-Enter your OpenAI API key: sk-...
 ```
 
 ## License
