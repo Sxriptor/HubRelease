@@ -5,7 +5,7 @@ Generate professional GitHub release notes using OpenAI's GPT-4.
 ## Installation
 
 ```bash
-npm install -g @coler/release-notes-generator
+npm install -g @scriptorxtor/release-notes-generator
 ```
 
 ## Usage
