@@ -7,7 +7,8 @@ Generate professional GitHub release notes using OpenAI's GPT-4.
 ```bash
 npm install -g @scriptorxtor/release-notes-generator
 ```
-
+Run npm root -g to find the global node_modules directory
+(you can drag it out to desktop or leave it here)
 ## Usage
 
 Simply run the command and follow the prompts:
