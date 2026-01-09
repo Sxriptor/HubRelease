@@ -1,6 +1,6 @@
 {
   "name": "@scriptorxtor/release-notes-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate professional release notes using OpenAI",
   "main": "lib/generator.js",
   "type": "commonjs",
